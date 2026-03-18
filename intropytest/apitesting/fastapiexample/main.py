@@ -15,6 +15,9 @@ items_db = [
 
 # -------------------------
 # Pydantic Models
+# Pydantic models are used to build easy-to-understand, 
+# predictable data structures, with incorporated 
+# type-checking and validation.
 # -------------------------
 class Item(BaseModel):
     id: int
